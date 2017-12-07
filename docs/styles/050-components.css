@@ -11,7 +11,6 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .site-header {
     border-bottom: solid 1px var(--color-borders);
-    margin-bottom: var(--space-stack-xl);
 }
 
 
@@ -49,32 +48,11 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
   border-radius: 10px;
   text-shadow: 0px 0px 0px #FFFFFF;
 }
-#menu-bar li ul li a {
-  margin: 0;
 
-}
 
-#menu-bar .active a, #menu-bar li:hover > a {
 
-  background: linear-gradient(top,  #EBEBEB,  #A1A1A1);   
-}
 
-#menu-bar ul li:hover a, #menu-bar li:hover li a {
-  background: none;
-  border: none;
-  color: #666;
-  border-radius: 9px;
 
-}
-#menu-bar ul a:hover {
-  background: #737373 !important;
-  color: #FFFFFF !important;
-  border-radius: 0; 
-}
-
-#menu-bar li:hover > ul {
-  display: block;
-}
 
 #menu-bar ul {
   background: #DDDDDD;
