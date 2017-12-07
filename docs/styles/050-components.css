@@ -56,7 +56,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 #menu-bar .active a, #menu-bar li:hover > a {
 
-  background: linear-gradient(top,  #EBEBEB,  #A1A1A1);   
+  background: linear-gradient(top,  #EBEBEB,  #A1A1A1);
 }
 
 #menu-bar ul li:hover a, #menu-bar li:hover li a {
@@ -69,7 +69,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 #menu-bar ul a:hover {
   background: #737373 !important;
   color: #FFFFFF !important;
-  border-radius: 0; 
+  border-radius: 0;
 }
 
 #menu-bar li:hover > ul {
@@ -99,8 +99,8 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
   font-size:15px;
   font-style:normal;
   font-family:arial;
- 
- 
+
+
 }
 #menu-bar ul li:first-child > a {
   border-top-left-radius: 10px;
@@ -208,13 +208,21 @@ a:visited{}
 
 .five {
     grid-column: 1 / span 3;
-    grid-row: 4 / span 1;
+    grid-row: 5 / span 1;
     background-color:dimgrey;
+    padding-left: 190px;
+padding-right: 190px;
+padding-bottom: 20px;
 }
 
 .six {
-    grid-column: 2 / span 1;
-    grid-row: 3 / span 1;
+    grid-column: 1 / span 3;
+    grid-row: 4 / span 1;
+    background-color:darkgrey;
+    text-align: left;
+    padding-left: 11rem;
+
+
 }
 
 .seven {
@@ -281,7 +289,7 @@ a:visited{}
     top: 900px;
     right: 200px;
     font-size: 2em;
-    
+
 }
 
 .four h3  {
@@ -289,17 +297,33 @@ a:visited{}
     top: 1010px;
     right: 200px;
     text-align: left;
-    
+
 
 }
-.five .h3{
-     position: absolute;
-    top: 1200px;
-    left: 190px;
-    color:white;
-    font-size: 3em;
-}
 
+.five {
+  text-align: left;
+
+}
+.five p{
+  color: white;
+}
+.five h3{
+  color: white;
+  font-size: 1.5em;
+}
+.five h4{
+  color: white;
+  font-size: 1.2em;
+}
+.six h2{
+
+}
+.six h3{
+  font-size: 1.2em;
+  color:white;
+
+}
 
 .button {
   border-radius: 4px;
@@ -358,6 +382,11 @@ a:visited{}
     width:200px;
     float: left;
     margin-left: 190px;
+}
+.six img{
+  width: 400px;;
+  float: right;
+  margin-right: 190px;
 }
 
 
