@@ -1,6 +1,6 @@
 /* ----------------------------------------------------------------------------
-components.css                                                                  
-Enthält alle Regeln zu Komponenten.  
+components.css
+Enthält alle Regeln zu Komponenten.
 
 Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 ----------------------------------------------------------------------------*/
@@ -55,7 +55,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
   margin: 0;
 }
 #menu-bar .active a, #menu-bar li:hover > a {
-  
+
   background: linear-gradient(top,  #EBEBEB,  #A1A1A1);
 
 }
@@ -125,108 +125,25 @@ body { font-family: arial; font-size: 16px;}
 .clr6 {background: ; color: #39B5A1;}
 .clr7 {background: ; color: #D45245;}
 
-a {color: #BDC3CF; text-decoration: none;}
-a:hover {color: #ffffff; text-decoration: underline;}
+a {color: #4682B4; text-decoration: none;}
+a:hover {color: #26455E; text-decoration: underline;}
 a:visited{}
 
 /*##### Footer Structure #####*/
 .bo-wrap {clear:both; width: auto;}
-.bo-footer {
-  clear:both;
-  width: auto;
-  padding: 5px;
-  width: 960px;
-	margin: 0 auto;
-}
 
-.bo-footer-social {text-align: center; line-height: 1px;}
-
-.footer-smap {
-	width: 300px;
-	float: left;
-	padding: 5px 10px;
-  text-align: left;
-  font-size: 18px;
-}
-
-.footer-uonline {
-	width: 300px; /* Account for margins + border values */
-	float: left;
-	padding: 5px 10px;
-  text-align: center;
-}
-
-.footer-power {
-	width: 300px;
-	padding: 5px 10px;
-	float: left;
-  text-align: right;
-  font-size: 14px;
-  color: #636A7D;
-  vertical-align: middle;
-}
-
-.bo-footer-copyright {text-align: center; color: #BDC3CF}
-
-/*##### Footer Responsive #####*/
-/* for 980px or less */
-@media screen and (max-width: 980px) {
-	
-	.bo-footer {
-		width: 95%;
-		padding: 1% 2%;
-	}
-	.footer-smap {
-		width: 46%;
-		padding: 1% 2%;
-	}
-	.footer-uonline {
-		width: 46%;
-		padding: 1% 2%;
-		float: right;
-    text-align: right;
-	}
-	
-	.footer-power {
-		clear: both;
-		padding: 1% 2%;
-		width: auto;
-		float: none;
-    text-align: center;
-	}
-}
-/* for 700px or less */
-@media screen and (max-width: 600px) {
-
-	.footer-smap {
-		width: auto; 
-		float: none;
-    text-align: center;
-	}
-	
-	.footer-uonline {
-		width: auto;
-		float: none;
-    text-align: center;
-	}
-	
-	.footer-power {
-		width: auto;
-		float: none;
-    text-align: center;
-	}
-
-}
 
 /* for 480px or less */
 @media screen and (max-width: 480px) {
-  
+
 }
 
 /* ----------------------------------------------------------------------------------------------------*/
 
 .footer {
     border-top: solid 1px var(--color-borders);
+    padding: 1em;
+
 }
 
 .wrapper {
@@ -234,7 +151,7 @@ a:visited{}
     grid-template-columns: repeat(3, 1fr);
     grid-gap: px;
     grid-auto-rows: minmax(100px, auto);
-    
+
     position: relative;
     text-align: center;
     color: blue;
@@ -292,7 +209,7 @@ a:visited{}
     color: white;
 }
 
-.one h1  { 
+.one h1  {
    position: absolute;
     top: 100px;
     left: 16px;
@@ -300,7 +217,7 @@ a:visited{}
     font-size: 4em;
 }
 
-.one h2  { 
+.one h2  {
    position: absolute;
     top: 20px;
     right: 16px;
@@ -318,22 +235,40 @@ a:visited{}
 
 
 
-.two h2  { 
+.two h2  {
    position: absolute;
     top: 550px;
     left: 200px;
     font-size: 5em;
 }
 
-.two h3  { 
+.two h3  {
    position: absolute;
     top: 700px;
     left: 200px;
     text-align: left;
-    
+
+
+}
+
+
+.four i{
+      position: absolute;
+    top: 900px;
+    right: 200px;
+    font-size: 5em;
+    color:white;
+}
     
 }
 
+.five h2{
+     position: absolute;
+    top: 1200px;
+    left: 190px;
+    color:white;
+    font-size: 3em;
+}
 
 
 .button {
@@ -348,7 +283,7 @@ a:visited{}
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-    
+
 }
 
 .button span {
@@ -386,7 +321,7 @@ a:visited{}
           position: absolute;
     top: 0px;
     left: 300px;
-    
+
 }
 
 .four img{
@@ -395,10 +330,4 @@ a:visited{}
     margin-left: 190px;
 }
 
-.five h2{
-     position: absolute;
-    top: 1200px;
-    left: 190px;
-    color:white;
-    font-size: 3em;
-}
+
