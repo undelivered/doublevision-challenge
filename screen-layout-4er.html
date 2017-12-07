@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
 </head>
 
+
+
 <body>
     <main class="screen" id="screen">
 
@@ -22,10 +24,17 @@
                 <div id="sidebar" class="upper-content__left" data-trigger="fullscreenTarget">
                     <img src="images/tsl/tsl-sidebar-tr.svg" alt="sidebar" id="tsl-sidebar">
                 </div>
+
                 <div class="upper-content__right" data-trigger="fullscreen" data-content-upper>
-                    <div class="screen__content tsl-fixed" draggable="true" data-trigger="fullscreenChild" data-screen-content>
-                        <div class="tsl-map" style="background-image: url(images/tsl/tsl-map.svg);"></div>
-                    </div>
+                    <div id="map">
+                    <script src = "scripts/google-map.js">
+                    </script>
+                      <script
+                      async defer
+                      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8qziSi7bAVjWG6_vXZWu9eQxyRTVL7Y8&callback=initMap ">
+                      </script>
+                </div>
+
                 </div>
             </div>
                 <ul class="top-area__main-control">
@@ -125,8 +134,10 @@
 
     <!-- Verschiedene Layouts via Query String -->
     <script src="scripts/tesla-layout-switch.js"></script>
-    
+
     <!-- Verschiedene Layouts via Query String -->
     <script src="scripts/tesla-main-control.js"#></script>
+
+
 
 </body>
