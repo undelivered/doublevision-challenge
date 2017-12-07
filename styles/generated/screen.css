@@ -58,6 +58,21 @@
   --font-family-sans-serif: Montserrat;
   --font-family-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
+/**Webcam**/
+#container {
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+    border: 10px #1a1a1a solid;
+}
+#videoElement {
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a1a;
+}
+
+
+
   #map {
     width: 100%;
     height: 100%;
@@ -73,7 +88,7 @@
   table {
     font-size: 12px;
   }
- 
+
   #listing {
     position: absolute;
     width: 200px;
