@@ -211,7 +211,7 @@ a:visited{}
 .five {
     grid-column: 1 / span 3;
     grid-row: 4 / span 1;
-    background-color:green;
+    background-color:dimgrey;
 }
 
 .six {
@@ -282,8 +282,8 @@ a:visited{}
       position: absolute;
     top: 900px;
     right: 200px;
-    font-size: 4em;
-    color:white;
+    font-size: 2em;
+    
 }
 
 .four h3  {
@@ -291,6 +291,7 @@ a:visited{}
     top: 1010px;
     right: 200px;
     text-align: left;
+    
 
 }
 .five .h3{
