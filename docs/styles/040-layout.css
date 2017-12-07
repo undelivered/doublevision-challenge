@@ -10,8 +10,8 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 -----------------------------------------------------------------------------*/
 
 .content {
-    /*max-width: var(--content-width);
-   /* margin: 0 auto;
+    max-width: var(--content-width);
+    margin: 0 auto;
 }
 
 
@@ -21,5 +21,3 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 .section {
     padding-bottom: var(--space-stack-xl);
 }
-    
-    
