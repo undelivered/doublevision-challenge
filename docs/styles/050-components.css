@@ -221,7 +221,7 @@ padding-bottom: 20px;
 
 .one h1  {
    position: absolute;
-    top: 100px;
+    top: 200px;
     left: 16px;
     color:white;
     font-size: 4em;
@@ -264,7 +264,7 @@ padding-bottom: 20px;
 
 .four i{
       position: absolute;
-    top: 900px;
+    top: 1000px;
     right: 200px;
     font-size: 2em;
 
@@ -272,7 +272,7 @@ padding-bottom: 20px;
 
 .four h3  {
    position: absolute;
-    top: 1010px;
+    top: 1100px;
     right: 200px;
     text-align: left;
 
