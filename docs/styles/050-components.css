@@ -202,18 +202,18 @@ a:visited{}
 		width: 95%;
 		padding: 1% 2%;
 	}
-	.bo-footer-smap {
+	.footer-smap {
 		width: 46%;
 		padding: 1% 2%;
 	}
-	.bo-footer-uonline {
+	.footer-uonline {
 		width: 46%;
 		padding: 1% 2%;
 		float: right;
     text-align: right;
 	}
 	
-	.bo-footer-power {
+	.footer-power {
 		clear: both;
 		padding: 1% 2%;
 		width: auto;
@@ -224,19 +224,19 @@ a:visited{}
 /* for 700px or less */
 @media screen and (max-width: 600px) {
 
-	.bo-footer-smap {
+	.footer-smap {
 		width: auto; 
 		float: none;
     text-align: center;
 	}
 	
-	.bo-footer-uonline {
+	.footer-uonline {
 		width: auto;
 		float: none;
     text-align: center;
 	}
 	
-	.bo-footer-power {
+	.footer-power {
 		width: auto;
 		float: none;
     text-align: center;
@@ -337,7 +337,7 @@ a:visited{}
 .one h3{
        position: absolute;
     top: 420px;
-    left: 16px;
+    left: 200px;
     color:white;
     font-size: 1.5em;
 }
@@ -405,7 +405,7 @@ a:visited{}
 .one .button{
       position: absolute;
     top: 400px;
-    left: 250px;
+    left: 450px;
 }
 
 .one .button2{
