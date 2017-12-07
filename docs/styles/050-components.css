@@ -85,15 +85,73 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     color: white;
 }
 
-.one h2  { 
+.one h1  { 
    position: absolute;
-    bottom: 700px;
+    bottom: 500px;
     left: 16px;
     color:white;
+    font-size: 4em;
 }
+
+.one h2  { 
+   position: absolute;
+    bottom: 800px;
+    right: 16px;
+    color:white;
+    font-size: 3em;
+}
+
+
 
 .two h2  { 
    position: absolute;
     bottom: 150px;
     left: 16px;
+}
+
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+    
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.one .button{
+      position: absolute;
+    bottom: 500px;
+    left: 600px;
 }
