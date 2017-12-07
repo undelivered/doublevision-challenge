@@ -91,25 +91,16 @@
 
   #listing {
     position: absolute;
-    width: 200px;
-    height: 470px;
+    width: 100%; 
+    height: auto;
     overflow: auto;
-    left: 442px;
-    top: 0px;
+    left: 0px;
+    top: 20px;
     cursor: pointer;
     overflow-x: hidden;
   }
 
 
-  #listing2 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    top: 0px;
-    cursor: pointer;
-    overflow-x: hidden;
-  }
 
   #findhotels {
     position: absolute;
