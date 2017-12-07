@@ -1,27 +1,297 @@
 /* ----------------------------------------------------------------------------
-components.css                                                                  
-Enthält alle Regeln zu Komponenten.  
+components.css
+Enthält alle Regeln zu Komponenten.
 
 Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 ----------------------------------------------------------------------------*/
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 300px 1fr 100px;
+    grid-template-columns: 35% 35% 30%;
+
+}
+
+.TeamBigBang {
+<<<<<<< HEAD
+    margin-top:100px;
+=======
+
+<<<<<<< HEAD
+   width: auto;
+   height: auto;
+   max-width: 1080px;
+   max-height: 1080px;
+   border-bottom: 10px, solid, black;
+=======
+>>>>>>> c6770b643882c760257fce0c8b3ebcdcca80de5f
+    width: auto;
+    height: auto;
+    max-width: 1080px;
+    max-height: 1080px;
+<<<<<<< HEAD
+=======
+>>>>>>> 92ab9a9946c55963a7dbef7764672c0b21e7ae77
+>>>>>>> c6770b643882c760257fce0c8b3ebcdcca80de5f
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.two {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.three {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.four {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.five {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+}
+
+.six {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+}
+
+.seven {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
+}
+
+.eight {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 4;
+}
+
 
 
 /* Site Header
 -----------------------------------------------------------------------------*/
 
 .site-header {
-    border-bottom: solid 1px var(--color-borders);
-    margin-bottom: var(--space-stack-xl);
+   
+    margin-bottom: var(--space-stack-xl);   
+    border-bottom-style: solid;
+}
+
+.site-header__content {
+    max-width: var(--site-width);
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.brand-logo {
+
+
+
+    margin-top: -100px;
+    width: 10px;
+    height: auto;
+    
+
+
+
+  
+      
+    width: 234px;
+    height: 123px;
+    margin-left: 20px;
+    
+
+    width: calc(var(--site-width)/5);
+    padding-top: var(--space-stack-m);
+    padding-bottom: var(--space-stack-m);
+    display: inline-block;
+
+
+
 }
 
 
 /* Navigation
 -----------------------------------------------------------------------------*/
 
+.nav {
 
-/* Footer
+    margin: 0;
+
+
+    display: block;
+
+    text-align: center;
+    padding: 30px 30px 0px 0px ;
+
+    
+
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    
+
+    position:fixed;
+    background-color:white;
+
+
+
+
+}
+
+.nav li:hover {
+    background-color: #aaa;
+
+}
+
+.nav li:active {
+
+    background-color: #aaa;
+    cursor: default;
+}
+
+.nav__item {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+
+}
+
+.nav__item a {
+
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+    color: black;
+
+}
+
+.nav__horizontal {
+
+    list-style: none;
+
+    text-align: center;
+    padding: 0;
+
+    margin-top: -10px;
+top: 66px;
+
+
+    overflow: hidden;
+    float: right;
+    float: bottom;
+}
+
+ul__horizontal li {
+    float: left;
+}
+
+ul__horizontal li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav__horizontal .nav__item {
+    display: inline-block;
+    padding-right: var(--space-inset-xs);
+}
+
+
+.nav__horizontal .nav__item + .nav__item {
+    border-left: solid 1px var(--color-border);
+    padding-left: var(--space-inset-xs);
+}
+
+
+
+/* Staff
 -----------------------------------------------------------------------------*/
 
-.footer {
-    border-top: solid 1px var(--color-borders);
+.staff {
+    padding-top: var(--space-stack-xl);
 }
+
+.staff .section__header {
+    padding-bottom: var(--space-stack-xl);
+}
+
+.staff__member + .staff__member + .staff__member {
+    border-top: solid 1px var(--color-border);
+    padding-top: var(--space-stack-xl);
+    */margin-top: var(--space-stack-xl);
+}
+
+.staff__member .title {
+    font-size: var(--fs-l);
+}
+
+.staff__member .subtitle {
+    font-size: var(--fs-m);
+}
+
+.staff__member p {
+    margin-bottom: var(--space-stack-l);
+}
+
+.staff__member:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.staff__member .member__avatar {
+    line-height: 0;
+    display: inline-block;
+    margin: 5px;
+    border: 20px solid rgba(255, 255, 255, 0.4);
+    border-radius: 25%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    height: 200px;
+    width: 200px;
+    float: center;
+    margin-right: var(--space-inset-l);
+}
+
+.staff__member .member__credo {
+    font-size: var(--fs-m);
+}
+
+.staff__member .member__credo:before {
+    content: "„";
+    display: inline-block;
+}
+
+.staff__member .member__credo:after {
+    content: "“";
+}
+
+.member__avatar img {
+    border-radius: 50%;
+}
+
+
