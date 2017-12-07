@@ -188,9 +188,11 @@ a:visited{}
     grid-column: 1 / span 3;
     grid-row: 5 / span 1;
     background-color:dimgrey;
+
     padding-left: 190px;
 padding-right: 190px;
 padding-bottom: 20px;
+
 }
 
 .six {
@@ -294,8 +296,7 @@ padding-bottom: 20px;
   color: white;
   font-size: 1.2em;
 }
-.six h2{
-
+.five h2{
 }
 .six h3{
   font-size: 1.2em;
@@ -362,9 +363,9 @@ padding-bottom: 20px;
     margin-left: 190px;
 }
 .six img{
-  width: 400px;;
+  width: 600px;;
   float: right;
-  margin-right: 190px;
+  margin-right: 0px;
 }
 
 
