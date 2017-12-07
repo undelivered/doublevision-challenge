@@ -8,3 +8,13 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 /* Headlines
 ----------------------------------------------------------------------------*/
+
+
+/* Wrapper
+---------------------------------------------------------------------------*/
+
+.wrapper h1, h2{
+    color: white;
+    font-size:3em;
+}
+
