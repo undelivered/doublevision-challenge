@@ -185,13 +185,15 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 }
 
 .two {
-    grid-column: 1 / span 3;
-    grid-row: 2 / span 4;
-    background-color:aqua;
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+    background-color:azure;
 }
 
+
+
 .three {
-    grid-column: 1 / span 1;
+    grid-column: 3 / span 1;
     grid-row: 2 / span 1;
 }
 
@@ -236,24 +238,32 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .one h2  { 
    position: absolute;
-    bottom: 800px;
+    bottom: 700px;
     right: 16px;
     color:white;
     font-size: 3em;
+}
+
+.one h3{
+       position: absolute;
+    bottom: 450px;
+    left: 16px;
+    color:white;
+    font-size: em;
 }
 
 
 
 .two h2  { 
    position: absolute;
-    bottom: 150px;
+    bottom: 100px;
     left: 16px;
 }
 
 
 .button {
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color:dodgerblue;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -293,6 +303,13 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .one .button{
       position: absolute;
-    bottom: 500px;
-    left: 600px;
+    bottom: 450px;
+    left: 250px;
+}
+
+.one .button2{
+          position: absolute;
+    bottom: 0px;
+    left: 300px;
+    
 }
