@@ -90,9 +90,9 @@
   }
 
   #listing {
-    position: absolute;
-    width: 100%; 
-    height: auto;
+    position: auto;
+     
+    height: 400px;
     overflow: auto;
     top: 47px;
     cursor: pointer;
@@ -148,7 +148,8 @@
   }
   #resultsTable {
     border-collapse: collapse;
-    width: 240px;
+    width: 541px;
+    height: 538px;
   }
   #rating {
     font-size: 13px;
