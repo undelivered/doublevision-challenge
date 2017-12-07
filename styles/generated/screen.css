@@ -94,13 +94,16 @@
     width: 100%; 
     height: auto;
     overflow: auto;
-    left: 0px;
-    top: 20px;
+    top: 47px;
     cursor: pointer;
     overflow-x: hidden;
   }
 
-
+  #border{
+  border-color: white;
+  border-width: 10px;
+  border-style: solid;
+  }
 
   #findhotels {
     position: absolute;
