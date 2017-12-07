@@ -205,7 +205,7 @@ a:visited{}
 .four {
     grid-column: 1 / span 3;
     grid-row: 3 / span 1;
-    background-color:#666666;
+    background-color:#bbbbbb;
 }
 
 .five {
@@ -277,6 +277,29 @@ a:visited{}
 
 }
 
+
+.four i{
+      position: absolute;
+    top: 900px;
+    right: 200px;
+    font-size: 4em;
+    color:white;
+}
+
+.four h3  {
+   position: absolute;
+    top: 1010px;
+    right: 200px;
+    text-align: left;
+
+}
+.five .h3{
+     position: absolute;
+    top: 1200px;
+    left: 190px;
+    color:white;
+    font-size: 3em;
+}
 
 
 .button {
