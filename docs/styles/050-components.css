@@ -29,18 +29,24 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 5px;
     grid-auto-rows: minmax(100px, auto);
+    
+    position: relative;
+    text-align: center;
+    color: blue;
 }
 
 .one {
     grid-column: 1 / span 3;
-    grid-row: 1 / span 3;
+    grid-row: 1 / span 1;
+
 }
 
 .two {
-    grid-column: 2 / span 1;
-    grid-row: 1 / span 1;
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 4;
+    background-color:aqua;
 }
 
 .three {
@@ -71,4 +77,23 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 .eight {
     grid-column: 3 / span 1;
     grid-row: 1 / span 4;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.one h2  { 
+   position: absolute;
+    bottom: 700px;
+    left: 16px;
+    color:white;
+}
+
+.two h2  { 
+   position: absolute;
+    bottom: 150px;
+    left: 16px;
 }
