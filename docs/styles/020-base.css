@@ -51,7 +51,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     /* 
     Schrift
     ----------------------------------------*/
-    --fontfamily: "Helvetica Neue", Helvetica, sans-serif;
+    --fontfamily: "Montserrat", sans-serif;
     --fontsize: 1rem;
     --fontsize-s: 0.75rem;
     --fontsize-l: 1.5rem;
@@ -65,7 +65,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 html,
 body {
-    font-family: var(--fontfamily);
+    font-family: "Montserrat";
     font-size: 18px;
     font-weight: 400;
     color: var(--color-text);
