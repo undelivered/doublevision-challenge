@@ -361,6 +361,24 @@ a:visited{}
 }
 
 
+.four i{
+      position: absolute;
+    top: 900px;
+    right: 200px;
+    font-size: 5em;
+    color:white;
+}
+    
+}
+
+.five h2{
+     position: absolute;
+    top: 1200px;
+    left: 190px;
+    color:white;
+    font-size: 3em;
+}
+
 
 .button {
   border-radius: 4px;
@@ -421,10 +439,3 @@ a:visited{}
     margin-left: 190px;
 }
 
-.five h2{
-     position: absolute;
-    top: 1200px;
-    left: 190px;
-    color:white;
-    font-size: 3em;
-}
