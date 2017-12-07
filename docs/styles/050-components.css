@@ -344,9 +344,17 @@ a:visited{}
 
 .two h2  { 
    position: absolute;
-    bottom: 100px;
+    bottom: 200px;
     left: 16px;
 }
+
+.two h3  { 
+   position: absolute;
+    bottom: 50px;
+    left: 16px;
+    
+}
+
 
 
 .button {
