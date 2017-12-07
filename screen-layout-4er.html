@@ -37,11 +37,11 @@
                 <div id="findhotels">
                     Find hotels in:
                   </div>
-              
+
                   <div id="locationField">
                     <input id="autocomplete" placeholder="Enter a city" type="text" />
                   </div>
-              
+
                   <div id="controls">
                     <select id="country">
                       <option value="all">All</option>
@@ -60,15 +60,15 @@
                       <option value="uk">United Kingdom</option>
                     </select>
                   </div>
-              
+
                   <div id="map"></div>
-              
+
                   <div id="listing">
                     <table id="resultsTable">
                       <tbody id="results"></tbody>
                     </table>
                   </div>
-              
+
                   <div style="display: none">
                     <div id="info-content">
                       <table>
@@ -95,7 +95,7 @@
                       </table>
                     </div>
                   </div>
-              
+
 
                 </div>
             </div>
@@ -172,11 +172,12 @@
                 <div class="screen__content is-scrollable" draggable="true" data-screen-content>
                     <!-- Put your Content here ###########################################-->
 
-                    <h4>Super Content Area 4</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-                    <button class="btn">Start engine</button>
+                    <!--Source: https://www.kirupa.com/html5/accessing_your_webcam_in_html5.htm !-->
+                <div id="container">
+                    <video autoplay="true" id="videoElement">
+
+                    </video>
+                </div>
 
                     <!-- End of content box 4 ############################################-->
                 </div>
@@ -210,6 +211,8 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJSFCIwRaZf8thXV9bkUT9iNykRp-jswM&libraries=places&callback=initMap"
      async defer>
     </script>
+
+    <script src="scripts/webcam.js"></script>
 
 
 
