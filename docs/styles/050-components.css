@@ -33,7 +33,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
   z-index:999;
 }
 #menu-bar li {
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 6px 0px;
   padding: 0px 6px 0px 6px;
   float: left;
   position: relative;
@@ -211,7 +211,7 @@ a:visited{}
 .five {
     grid-column: 1 / span 3;
     grid-row: 4 / span 1;
-    background-color: #cccccc;
+    background-color:dimgrey;
 }
 
 .six {
@@ -237,16 +237,16 @@ a:visited{}
 
 .one h1  {
    position: absolute;
-    top: 250px;
-    left: 50px;
+    top: 100px;
+    left: 16px;
     color:white;
     font-size: 4em;
 }
 
 .one h2  {
    position: absolute;
-    top: 50px;
-    right: 50px;
+    top: 20px;
+    right: 16px;
     color:white;
     font-size: 3em;
 }
@@ -282,8 +282,8 @@ a:visited{}
       position: absolute;
     top: 900px;
     right: 200px;
-    font-size: 4em;
-    color:white;
+    font-size: 2em;
+    
 }
 
 .four h3  {
@@ -291,6 +291,7 @@ a:visited{}
     top: 1010px;
     right: 200px;
     text-align: left;
+    
 
 }
 .five .h3{
@@ -361,10 +362,4 @@ a:visited{}
     margin-left: 190px;
 }
 
-.five h2, h3, h4{
 
-
-    left: 190px;
-    color:white;
-
-}
