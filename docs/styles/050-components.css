@@ -25,3 +25,50 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 .footer {
     border-top: solid 1px var(--color-borders);
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 3;
+}
+
+.two {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.three {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.four {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.five {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+}
+
+.six {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+}
+
+.seven {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
+}
+
+.eight {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 4;
+}
