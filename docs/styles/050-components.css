@@ -11,7 +11,6 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .site-header {
     border-bottom: solid 1px var(--color-borders);
-    margin-bottom: var(--space-stack-xl);
 }
 
 
@@ -49,32 +48,11 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
   border-radius: 10px;
   text-shadow: 0px 0px 0px #FFFFFF;
 }
-#menu-bar li ul li a {
-  margin: 0;
 
-}
 
-#menu-bar .active a, #menu-bar li:hover > a {
 
-  background: linear-gradient(top,  #EBEBEB,  #A1A1A1);   
-}
 
-#menu-bar ul li:hover a, #menu-bar li:hover li a {
-  background: none;
-  border: none;
-  color: #666;
-  border-radius: 9px;
 
-}
-#menu-bar ul a:hover {
-  background: #737373 !important;
-  color: #FFFFFF !important;
-  border-radius: 0; 
-}
-
-#menu-bar li:hover > ul {
-  display: block;
-}
 
 #menu-bar ul {
   background: #DDDDDD;
@@ -99,8 +77,8 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
   font-size:15px;
   font-style:normal;
   font-family:arial;
- 
- 
+
+
 }
 #menu-bar ul li:first-child > a {
   border-top-left-radius: 10px;
@@ -208,13 +186,23 @@ a:visited{}
 
 .five {
     grid-column: 1 / span 3;
-    grid-row: 4 / span 1;
+    grid-row: 5 / span 1;
     background-color:dimgrey;
+
+    padding-left: 190px;
+padding-right: 190px;
+padding-bottom: 20px;
+
 }
 
 .six {
-    grid-column: 2 / span 1;
-    grid-row: 3 / span 1;
+    grid-column: 1 / span 3;
+    grid-row: 4 / span 1;
+    background-color:darkgrey;
+    text-align: left;
+    padding-left: 11rem;
+
+
 }
 
 .seven {
@@ -235,7 +223,7 @@ a:visited{}
 
 .one h1  {
    position: absolute;
-    top: 100px;
+    top: 200px;
     left: 16px;
     color:white;
     font-size: 4em;
@@ -278,28 +266,43 @@ a:visited{}
 
 .four i{
       position: absolute;
-    top: 900px;
+    top: 1000px;
     right: 200px;
     font-size: 2em;
-    
+
 }
 
 .four h3  {
    position: absolute;
-    top: 1010px;
+    top: 1100px;
     right: 200px;
     text-align: left;
-    
+
 
 }
-.five .h3{
-     position: absolute;
-    top: 1200px;
-    left: 190px;
-    color:white;
-    font-size: 3em;
-}
 
+.five {
+  text-align: left;
+
+}
+.five p{
+  color: white;
+}
+.five h3{
+  color: white;
+  font-size: 1.5em;
+}
+.five h4{
+  color: white;
+  font-size: 1.2em;
+}
+.five h2{
+}
+.six h3{
+  font-size: 1.2em;
+  color:white;
+
+}
 
 .button {
   border-radius: 4px;
@@ -358,6 +361,11 @@ a:visited{}
     width:200px;
     float: left;
     margin-left: 190px;
+}
+.six img{
+  width: 600px;;
+  float: right;
+  margin-right: 0px;
 }
 
 
